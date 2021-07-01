@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+#nav-bar {
+  list-style-type: none;
+  overflow: hidden;
+}
+ul li {
+  float: right;
+  padding: 15px;
+  margin: 15px;
+}
+ul li:hover {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #444343;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: #444343;
+}
+.top-banner {
+  padding: 15px;
+  margin-top: 10px;
+  display: flex;
+}
+.text-container {
+  width: 45%;
+  height: 450px;
+  padding: 50px;
+  margin: 25px;
+}
+.img-container {
+  width: 45%;
+  height: 450px;
+  padding: 20px;
+  margin-left: 35px;
+}
+
+.profile-img {
+  width: 80%;
+  height: 95%;
+}
+
+.article-head1 {
+  font-size: 65px;
+  font-weight: 800;
+  color: rgb(0, 63, 134);
+  line-height: 100px;
+}
+#article-head2 {
+  font-size: 32px;
+  color: rgb(0, 63, 134);
+  text-align: center;
+  font-weight: bold;
+}
+.highlighted {
+  color: tomato;
+  font-weight: 800;
+}
+p {
+  color: #444343;
+  margin-top: 20px;
+}
+.button {
+  background-color: tomato;
+  width: 140px;
+  height: 45px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #444343;
+  margin-top: 60px;
+}
+.button:hover {
+  background-color: rgb(255, 38, 0);
+  box-shadow: 0 0 10px #444343;
+  font-size: 17px;
+}
+#middle-banner {
+  background-color: whitesmoke;
+  padding: 120px;
+}
+.projects-container {
+  margin-top: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  column-gap: 27px;
+}
+.project {
+  width: 30%;
+  height: 300px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+.project:hover {
+  box-shadow: 0 0 20px #444343;
+  width: 31%;
+  height: 298px;
+}
+.project-img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#bottom-banner {
+  height: 400px;
+  text-align: center;
+}
+
+#img-container {
+  position: relative;
+}
+#banner-img {
+  width: 62%;
+  height: 190px;
+  margin-top: 100px;
+}
+#banner-content {
+  display: flex;
+  position: absolute;
+  left: 23%;
+  top: 60%;
+}
+#banner-title {
+  color: white;
+  font-size: 40px;
+}
+#banner-title:hover {
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 0 5px tomato;
+}
+#banner-button {
+  background-color: tomato;
+  width: 140px;
+  height: 45px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #444343;
+  margin-left: 200px;
+}
+#banner-button:hover {
+  background-color: rgb(255, 38, 0);
+  box-shadow: 0 0 10px tomato;
+  font-size: 17px;
+}
+#feedback-section {
+  padding: 40px 10%;
+}
+#feedback-head {
+  font-size: 35px;
+  text-align: center;
+  color: rgb(0, 63, 134);
+}
+#feedback-container {
+  display: flex;
+}
+.feedback {
+  text-align: center;
+  width: 30%;
+  height: 140px;
+  margin: 4%;
+  padding: 15px;
+  color: #444343;
+  box-shadow: 0 0 5px #444343;
+  border-radius: 10px;
+}
+.feedback:hover {
+  box-shadow: 0 0 10px #444343;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+footer h3 {
+  font-size: 20px;
+  color: #707070;
+}
+footer h2 {
+  font-size: 30px;
+  color: rgb(0, 63, 134);
+}
+.icons img {
+  width: 35px;
+  margin: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 2px #707070;
+}
+.icons img:hover {
+  box-shadow: 0 0 10px #0f0202;
+}
