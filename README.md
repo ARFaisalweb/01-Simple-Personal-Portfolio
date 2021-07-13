@@ -1,6 +1,6 @@
 ## Simple Personal Portfolio Website Design
 
-## Live Link: https://arfaisalweb.github.io/01-simple-personal-portfolio/ 
+## Live Link: https://arfaisalweb.github.io/01-Simple-Personal-Portfolio/
 
 ###### Technologies used on this Project:
 * HTML5
